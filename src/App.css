@@ -1,0 +1,67 @@
+.App{
+  padding: 40px;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body{
+  overflow: hidden;
+}
+
+.gridItems{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.Title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.TitleHeader{
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Urun{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.urunHeader{
+  border: #fff;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.urunYokHeader{
+  border: #fff;
+  padding-top: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.urunYokTitle{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
